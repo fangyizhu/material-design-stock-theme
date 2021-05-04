@@ -19,6 +19,19 @@ html {
   font-size: 18px; /* default is 15px */
 }
 
+html {
+    font-size: 18px; /* default 15px  */
+    &.text-size-smaller {
+      font-size: 17px; /* default 14px  */
+    }
+    &.text-size-larger {
+      font-size: 20px; /* default 17px  */
+    }
+    &.text-size-largest {
+      font-size: 22px; /* default 19px  */
+    }
+  }
+
 // make header icons semi-translucent
 .d-header-icons {
   .d-icon {
