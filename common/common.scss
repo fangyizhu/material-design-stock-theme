@@ -23,6 +23,14 @@ body textarea {
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
+// make header icons white
+.d-header-icons .icon {
+  color: white; // custom color, if needed
+  &.btn-flat .d-icon {
+    opacity: 1; // remove transparency 
+   }
+}
+
 //raise and round buttons
 .btn {
   border-radius: 4px;
